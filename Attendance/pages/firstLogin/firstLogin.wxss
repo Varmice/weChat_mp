@@ -1,0 +1,55 @@
+.main{
+  width: 80%;
+  height: 240px;
+  margin: 80px auto;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+.container1{
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+.container2{
+  width: 100%;
+  height: 40px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center; /* 设置垂直居中 */
+  justify-content: space-around;
+}
+.container3{
+  width: 100%;
+  height: 70px;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center; 
+}
+text{
+  font-size: 18px;
+  margin: auto 10px;
+}
+/* ---------------button--------------- */
+.button-style1 {
+  width: 35%; /* 设置宽度 */
+  height: 40px; /* 设置高度 */
+  background-color:#1389FA; /* 设置背景颜色 */
+  color: #fff; /* 设置文本颜色 */
+  border-radius: 10px; /* 设置圆角，值为高度一半 */
+  text-align: center; /* 文本居中 */
+  line-height: 40px; /* 设置行高使文本垂直居中 */
+  border: 1px solid black;
+}
+.button-style2 {
+  width: 35%; /* 设置宽度 */
+  height: 40px; /* 设置高度 */
+  background-color: #fff; /* 设置背景颜色 */
+  color: #000; /* 设置文本颜色 */
+  border-radius: 10px; /* 设置圆角，值为高度一半 */
+  text-align: center; /* 文本居中 */
+  line-height: 40px; /* 设置行高使文本垂直居中 */
+  border: 1px solid black;
+}

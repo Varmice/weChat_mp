@@ -1,0 +1,30 @@
+.top{
+  height: 300rpx;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  height: 400rpx;
+  background-color: green;
+  margin-top: 80rpx;
+}
+/* 设置表格样式 */
+.table {
+  margin-top: 80rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 设置行样式 */
+.row {
+  display: flex;
+}
+
+/* 设置单元格样式 */
+.cell {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+}

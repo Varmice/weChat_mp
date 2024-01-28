@@ -1,0 +1,16 @@
+<view class="top">
+  <van-image
+  round
+  width="200rpx"
+  height="200rpx"
+  src="https://img.yzcdn.cn/vant/cat.jpeg"
+  />
+  <text class="name">微信昵称</text>
+</view>
+
+<view class="box">
+  <view class="box1" bind:tap="toMineInfo">⚪我的信息</view>
+  <view class="box1" bindtap="showToast">⚪关于助手</view>
+</view>
+
+

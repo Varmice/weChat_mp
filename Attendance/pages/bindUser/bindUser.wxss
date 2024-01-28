@@ -1,0 +1,27 @@
+.btn{
+  margin: 40px auto;
+}
+.button-style {
+  width: 50%; /* 设置宽度 */
+  height: 40px; /* 设置高度 */
+  background-color:#1389FA; /* 设置背景颜色 */
+  color: #fff; /* 设置文本颜色 */
+  border-radius: 10px; /* 设置圆角，值为高度一半 */
+  text-align: center; /* 文本居中 */
+  line-height: 40px; /* 设置行高使文本垂直居中 */
+  border: 1px solid black;
+}
+.box{
+  height: 100px;
+  /* background-color: red; */
+  margin-top: 60px;
+  padding: 15rpx;
+}
+.box1{
+  height: 35px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  padding-left: 20px;
+  line-height: 35px;
+}

@@ -1,0 +1,16 @@
+<view class="main">
+  <view class="container1">
+  <text>学号/工号：</text>
+    <input class="custom-input" type="text" placeholder="请输入" />
+  </view>
+  <view class="container2">
+    <van-radio-group class="choose" value="{{ radio }}" bind:change="onChange" >
+    <van-radio name="1">老 师</van-radio>
+    <van-radio name="2" class="student">学 生</van-radio>
+    </van-radio-group>
+  </view>
+  <view class="container3">
+    <button class="button-style1" bind:tap="confirm">确定</button>
+    <button class="button-style2" bind:tap="cencel">取消</button>
+  </view>
+</view>

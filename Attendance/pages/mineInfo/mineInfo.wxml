@@ -1,0 +1,23 @@
+<view class="top">
+  <van-image
+  round
+  width="200rpx"
+  height="200rpx"
+  src="https://img.yzcdn.cn/vant/cat.jpeg"
+  />
+</view>
+
+<view class="table">
+  <view class="row">
+    <view class="cell">微信昵称</view>
+    <view class="cell">Row 1, Cell 2</view>
+  </view>
+  <view class="row">
+    <view class="cell">账号类型</view>
+    <view class="cell">Row 2, Cell 2</view>
+  </view>
+  <view class="row">
+    <view class="cell">学号/工号</view>
+    <view class="cell">Row 3, Cell 2</view>
+  </view>
+</view>

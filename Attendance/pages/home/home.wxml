@@ -1,0 +1,20 @@
+<view class="grid">
+  <!-- 第一行 -->
+  <view class="row">
+    <view class="cell" bind:tap="toFirstLogin">到校打卡</view>
+    <view class="cell" bind:tap="toBindUser">班车信息</view>
+  </view>
+
+  <!-- 第二行 -->
+  <view class="row">
+    <view class="cell" bind:tap="toLogin">课表信息</view>
+    <view class="cell">我要请假</view>
+  </view>
+
+  <!-- 第三行 -->
+  <view class="row">
+    <view class="cell">待定</view>
+    <view class="cell">待定</view>
+  </view>
+
+</view>

@@ -1,0 +1,8 @@
+<view class="btn">
+  <button class="button-style" bindgetuserinfo="bindgetuserinfo"  open-type="getUserInfo">绑定账号</button>
+</view>
+
+<view class="box">
+  <view class="box1" bindtap="showToast">⚪我的信息</view>
+  <view class="box1" bindtap="showToast">⚪关于助手</view>
+</view>

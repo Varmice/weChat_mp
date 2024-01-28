@@ -1,0 +1,27 @@
+.top{
+  height: 300rpx;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding-left: 70rpx;
+}
+.name{
+  margin-left: 100rpx;
+}
+text{
+  font-size: 36rpx;
+}
+.box{
+  height: 100px;
+  /* background-color: red; */
+  margin-top: 40rpx;
+  padding: 15rpx;
+}
+.box1{
+  height: 35px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  padding-left: 20px;
+  line-height: 35px;
+}

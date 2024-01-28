@@ -1,0 +1,12 @@
+<view class="main">
+  <view class="container1">
+    <text class="a">请登录账号后使用</text>
+  </view>
+  <view class="container2">
+    
+  </view>
+  <view class="container3">
+    <button class="button-style1" bind:tap="confirm">确定</button>
+    <button class="button-style2" bind:tap="cencel">取消</button>
+  </view>
+</view>

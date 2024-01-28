@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/bindUser/bindUser",
+    "pages/mineInfo/mineInfo",
+    "pages/firstLogin/firstLogin"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "软院小助手",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-field": "@vant/weapp/field/index",
+    
+    "van-radio": "@vant/weapp/radio/index",
+    "van-radio-group": "@vant/weapp/radio-group/index",
+
+    "van-image": "@vant/weapp/image/index"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的"
+    }]
+  }
+}
